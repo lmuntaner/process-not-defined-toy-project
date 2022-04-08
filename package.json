@@ -1,0 +1,23 @@
+{
+  "name": "process-not-defined-toy-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:rollup": "rollup --config rollup.config.js --environment NODE_ENV:development",
+    "build:webpack": "webpack --env NODE_ENV=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-replace": "^4.0.0",
+    "rollup": "^2.70.1",
+    "rollup-plugin-inject-env": "^0.1.0",
+    "webpack": "^5.71.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
